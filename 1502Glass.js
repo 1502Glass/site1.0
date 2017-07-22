@@ -1,5 +1,6 @@
-/*globals browser, console */
+/*globals browser, console, JQuery, $ */
 /*jslint plusplus: true */
+
 /*
 function adjustWidth() {
     'use strict';
@@ -12,10 +13,18 @@ function adjustWidth() {
     }
 }
 
+function buildInventoryTable() {
+    'use strict';
+    
+    
+}
+
 (function () {
     'use strict';
     adjustWidth();
+    buildInventoryTable();
 }());
 
 window.onresize = adjustWidth;
 */
+

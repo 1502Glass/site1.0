@@ -23,18 +23,37 @@ body {
     display: inline-block;
 }
 */
+.backLink {
+    transform: translateY(400%);   
+    vertical-align: middle;
+}
 
+.itemText {
+    display: inline-block;
+    transform: translateY(60%);
+}
 
+.logo {
+    margin-bottom: 10px;
+}
+
+.mobilePic img{
+    margin:auto;
+    max-height: 300px;
+    text-align:  center;
+}
 
 .shoppingCartIcon {
-    top:60px;
+    text-align: right;
+    transform: translateY(225%);    
 }
 
 .topBanner {
     border-bottom: 2px solid black;
-    height:120px;
-    padding-top: 20px;
+    display: inline-block;
+    margin-top: 20px;
     position: relative;
+    width: 104%;
 }
 
 
