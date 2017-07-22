@@ -8,15 +8,17 @@
         
         <title>1502 Glass</title>
         <link href="1502Glass.css" rel="stylesheet" />
+        <!--
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+        -->
     </head>
     <body>
         <div id="container" class="container-fluid">
             <div id="topBanner" class="row topBanner topBannerPad">
-                <div id="logoDiv" class="col-xs-5">
+                <div id="logoDiv" class="">
                     <img id="logo" class="logo" src="imgs/Logo.png">
                 </div>
-                <div id="loginDiv" class="loginDiv topBannerPad">
+                <div id="loginDiv" class="loginDiv topBannerPad hidden">
                     <form id="loginMenu" class="">
                         <input id="username" type="text" placeholder="Username">
                         <input id="password" type="text" placeholder="Password">
@@ -24,7 +26,7 @@
                     </form>
                 </div>
             </div>
-            <div id="forgotDiv" class="forgotDiv">
+            <div id="forgotDiv" class="forgotDiv hidden">
                 <a href="forgotPassword.html">Forgot Password</a>
             </div>
             <div id="inventory" class="inventory">

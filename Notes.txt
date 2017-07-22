@@ -1,0 +1,24 @@
+Home Page
+    Inventory
+        Table Structure
+        Click to get modal w/ closer view, description, add to cart and buy now options
+    (User Login)
+        Upper right
+        Drop to centered beneath logo for <500px
+        
+Shopping Cart
+    Table w/ items
+    Payment method form
+    Shipping information form
+    
+Payment Review
+    Items in order
+    Payment method
+    Shipping information
+    Confirm button
+    
+Order Confirmation
+    Order number
+    Items in order
+    Payment method
+    Shipping information
