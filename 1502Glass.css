@@ -1,0 +1,36 @@
+/* IDs */
+#forgotDiv {
+    font-size: 12px;
+    text-align: right;
+}
+
+#logo {
+    margin: 0px 47px 15px 47px;
+    
+}
+
+#topBanner {
+    border-bottom: 2px solid black;
+}
+
+/* Classes */
+.loginDiv {
+    float:right;
+    font-size: 12px;
+    padding: 0px;
+    width: 254px
+}
+
+.loginDiv  input{
+    width:100px;
+}
+
+.loginDiv  *{
+    display: inline-block;
+}
+
+.topBannerPad {
+    padding-top: 80px;
+}
+
+/* Utilities */
