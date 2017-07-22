@@ -1,10 +1,13 @@
 Home Page
     Inventory
         Table Structure
-        Click to get modal w/ closer view, description, add to cart and buy now options
-    (User Login)
-        Upper right
-        Drop to centered beneath logo for <500px
+        Click to get modal
+            Closer view
+            Description
+            Price
+            Add to Cart
+            Buy it Now
+    
         
 Shopping Cart
     Table w/ items
@@ -22,3 +25,13 @@ Order Confirmation
     Items in order
     Payment method
     Shipping information
+    
+    
+Future Features
+    User Accounts
+        Saved Payment Information
+    Administrative tool so Zach can manage inventory
+        Add/edit/remove items
+            Edit includes name,
+        Track stock
+        
