@@ -9,19 +9,20 @@
         <title>1502 Glass</title>
         <link href="1502Glass.css" rel="stylesheet" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-        
     </head>
     <body>
         <div id="container" class="container-fluid">
-            <div id="topBanner" class="row topBanner topBannerPad">
-                <div id="logoDiv" class="">
+            <div id="topBanner" class="row topBanner">
+                <div id="logoDiv" class="col-xs-9">
                     <img id="logo" class="logo" src="imgs/Logo.png">
                 </div>
-                <div>
-                    <a href="#" class="btn btn-info btn-lg">
-                        <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+                
+                <div id="shoppingCartIcon" class="shoppingCartIcon col-xs-3">
+                    <a href="#" class="btn btn-info btn-sm">
+                      <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
                     </a>
                 </div>
+                <!--
                 <div id="loginDiv" class="loginDiv topBannerPad hidden">
                     <form id="loginMenu" class="">
                         <input id="username" type="text" placeholder="Username">
@@ -29,10 +30,9 @@
                         <button id="loginButton" class="btn-primary">Login</button>
                     </form>
                 </div>
+                -->
             </div>
-            <div id="forgotDiv" class="forgotDiv hidden">
-                <a href="forgotPassword.html">Forgot Password</a>
-            </div>
+
             <div id="inventory" class="inventory">
                 <table>
                     <tr>

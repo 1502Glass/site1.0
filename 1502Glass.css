@@ -1,24 +1,13 @@
 /* Tags */
 body {
-    min-width: 440px;
+    min-width:320px;
 }
 
 /* IDs */
-#forgotDiv {
-    font-size: 12px;
-    text-align: right;
-}
 
-#logo {
-    margin-bottom: 15px;
-    
-}
-
-#topBanner {
-    border-bottom: 2px solid black;
-}
 
 /* Solo Classes */
+/*
 .loginDiv {
     float:right;
     font-size: 12px;
@@ -33,10 +22,21 @@ body {
 .loginDiv  *{
     display: inline-block;
 }
+*/
 
-.topBannerPad {
-    padding-top: 80px;
+
+
+.shoppingCartIcon {
+    top:60px;
 }
+
+.topBanner {
+    border-bottom: 2px solid black;
+    height:120px;
+    padding-top: 20px;
+    position: relative;
+}
+
 
 /* Utilities */
 .hidden {
